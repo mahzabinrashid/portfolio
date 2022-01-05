@@ -9,8 +9,8 @@ function Experience(prop) {
       <h2>{prop.duration}</h2>
 
       <ul>
-        {prop.bullets.map((element) => (
-          <li>{element}</li>
+        {prop.bullets.map((element, index) => (
+          <li key={index}>{element}</li>
         ))}
       </ul>
     </div>

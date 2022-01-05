@@ -6,15 +6,15 @@ function TechColumns(prop) {
       <div className="tech_columns">
         <div className="tech_bullets bullets">
           <ul>
-            {prop.col_1.map((element) => (
-              <li>{element}</li>
+            {prop.col_1.map((element, index) => (
+              <li key={index}>{element}</li>
             ))}
           </ul>
         </div>
         <div className="bullets">
           <ul>
-            {prop.col_2.map((element) => (
-              <li>{element}</li>
+            {prop.col_2.map((element, index) => (
+              <li key={index}>{element}</li>
             ))}
           </ul>
         </div>

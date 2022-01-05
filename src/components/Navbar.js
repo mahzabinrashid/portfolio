@@ -9,13 +9,13 @@ function Navbar() {
   };
   
   return (
-    <nav class="navbar">
-      <div class="brand-title"></div>
-      <a href="#" class="toggle-button" onClick={toggleNavbar}>
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </a>
+    <nav className="navbar">
+      <div className="brand-title"></div>
+      <div className="toggle-button" onClick={toggleNavbar}>
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+      </div>
       <div className={isActive ? "active navbar-links" : "navbar-links"}>
         <ul>
           <li>
