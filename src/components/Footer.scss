@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+  background-color: black;
+  font-family: "Inter", sans-serif;
+  a {
+    border-radius: 50% !important;
+    margin: 0px 3px;
+  }
+  .circle {
+    height: 60px;
+    width: 60px;
+
+    border: 1px solid #bd97f6;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50% !important;
+    text-align: center;
+    text-decoration: none;
+  }
+}

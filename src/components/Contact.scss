@@ -1,0 +1,29 @@
+.contact {
+  margin: auto;
+  padding: 10% 0;
+  width: 60%;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  h1 {
+    font-size: 52px;
+    padding-bottom: 10px;
+  }
+  p {
+    line-height: 30px;
+  }
+  a {
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #bd97f6;
+    border-radius: 5px;
+    color: #bd97f6;
+    font-family: "Fira Code", monospace;
+    margin-top: 55px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+  }
+}

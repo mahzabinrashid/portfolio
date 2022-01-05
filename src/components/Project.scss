@@ -1,0 +1,37 @@
+.project {
+  padding: 50px;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  .pic_container {
+    padding: 0 30px;
+  }
+
+  .icon {
+    padding-bottom: 20px;
+    float: right;
+    padding-top: 20px;
+    svg {
+      width: 40px;
+      padding-right: 15px;
+      
+    }
+  }
+  h1 {
+    font-size: 26px;
+    padding-bottom: 10px;
+  }
+  h2 {
+    font-family: "Fira Code", monospace;
+    text-align: end;
+    padding-top: 20px;
+  }
+  p {
+    line-height: 30px;
+    span {
+      color: #bd97f6;
+    }
+  }
+  .container {
+    margin: 0px 8%;
+  }
+}
