@@ -12,6 +12,7 @@ function Project(prop) {
               src={prop.pic}
               width="100%"
               height="auto"
+              alt="project"
             />
           </div>
         </Grid>
@@ -25,7 +26,7 @@ function Project(prop) {
 
             <div className="icon">
               {!prop.bool && (
-                <a href={prop.git} target="_blank">
+                <a href={prop.git} target="_blank" rel="noopener noreferrer">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     role="img"
@@ -43,7 +44,7 @@ function Project(prop) {
                 </a>
               )}
 
-              <a href={prop.ext_link} target="_blank">
+              <a href={prop.ext_link} target="_blank" rel="noopener noreferrer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   role="img"

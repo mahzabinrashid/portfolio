@@ -18,7 +18,7 @@ function Intro(prop) {
         current students, faculty members and alumni from universities across
         Canada.
       </p>
-      <a href={Resume} target="_blank">
+      <a href={Resume} target="_blank" rel="noopener noreferrer">
         Check out my resume!
       </a>
     </div>

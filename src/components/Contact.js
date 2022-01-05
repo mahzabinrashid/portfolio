@@ -8,7 +8,7 @@ function Contact(prop) {
         If you like my resume, think our interests align, or just want to chat,
         feel free to reach out!
       </p>
-      <a href="mailto:m2fariha@uwaterloo.ca" target="_blank">
+      <a href="mailto:m2fariha@uwaterloo.ca" target="_blank" rel="noopener noreferrer">
         Say Hello!
       </a>
     </div>
