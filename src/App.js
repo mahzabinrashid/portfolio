@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar"
+import Navbar from "./components/Navbar";
 import Heading from "./components/Headings";
 import Intro from "./components/Intro";
 import Experience from "./components/Experience";
@@ -7,15 +7,16 @@ import Technology from "./components/Technology";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import CoffeeHours from "./images/CoffeeHours.png";
+import Algorithma from "./images/Algorithma.png";
 import ProjectGlobal from "./images/ProjectGlobal.png";
 import CreatorsColosseum from "./images/CreatorsColosseum.png";
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Intro id="about"/>
+      <Navbar />
+      <Intro id="about" />
       <Heading id="experience" title="Where I've worked" />
-      <Experience 
+      <Experience
         title="Frontend Engineer"
         duration="May 2021 - August 2021"
         org="Modumate"
@@ -77,7 +78,7 @@ function App() {
       />
       <Heading id="projects" title="Some things I've built" />
 
-      <Project 
+      <Project
         pic={CoffeeHours}
         p={[
           "Awarded ",
@@ -98,6 +99,15 @@ function App() {
         techstack="Firebase  React  SCSS"
         git="https://github.com/mahzabinrashid/Coffee-Hours"
         ext_link="https://devpost.com/software/coffee-hours"
+      />
+      <Project
+        pic={Algorithma}
+        p={[
+          "Designed the UI and developed a blog where a combination of HTML, CSS, and some JavaScript Libraries are used to host aesthetic visualizations of computational algorithms to make them more intriguing and intelligible for people. ",
+        ]}
+        techstack="HTML  CSS  JavaScript"
+        git="https://github.com/hamza-yusuff/AlgoVisualization"
+        ext_link="https://algorithma.netlify.app/"
       />
       <Project
         pic={ProjectGlobal}
@@ -121,8 +131,10 @@ function App() {
           <span>Spring Ideathon</span>,
           " by ",
           <span>Tomorrow's Entrepreneurs</span>,
-          " for the business idea, Creators' Colosseum is a platform dedicated to let artists to showcase their work.", <br></br>,
-          <br></br>, "Using ",
+          " for the business idea, Creators' Colosseum is a platform dedicated to let artists to showcase their work.",
+          <br></br>,
+          <br></br>,
+          "Using ",
           <span>Wordpress</span>,
           " to make the website and ",
           <span>Adobe Photoshop</span>,
@@ -147,8 +159,8 @@ function App() {
         tools_1={["React.js", "Vue.js", "Firebase"]}
         tools_2={["Git", "Figma", "Wordpress"]}
       />
-      <Contact id="contact"/>
-      <Footer/>
+      <Contact id="contact" />
+      <Footer />
     </div>
   );
 }
