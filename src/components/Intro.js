@@ -8,10 +8,10 @@ function Intro(prop) {
       <h1>Mahzabin Rashid.</h1>
       <p>
         I’m a second-year student at the <span>University of Waterloo</span>{" "}
-        pursuing a degree in <span>Computer Science</span>. I’m currently
+        pursuing a degree in <span>Computer Science</span>. Currently, I'm
         seeking Summer 2022 internship opportunities.<br></br>
         <br></br>
-        Previously, I worked at <span>Modumate</span>, a startup based in San
+        I previously worked at <span>Modumate</span>, a startup based in San
         Francisco as the only self-managed <span>frontend engineer</span> of the
         team. Most recently, I worked on <span>Coffee Hours</span>, a
         youth-friendly website used for facilitating virtual coffee chats with
