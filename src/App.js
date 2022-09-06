@@ -151,14 +151,19 @@ function App() {
           <span>Best Pitch</span>,
           " in ",
           <span>TechNova 2021</span>,
+          " among",
+          <span> 300+ </span>,
+          "participants",
           " and prototyped in ",
           <span>36 hours</span>,
-          " Coffee Hours is a youth-friendly website used for facilitating virtual coffee chats with current students, faculty members and alumni from universities across Canada.",
+          ", Coffee Hours is a youth-friendly website used for facilitating virtual coffee chats with current students, faculty members, and alumni from universities across Canada.",
           <br></br>,
           <br></br>,
-          "Includes an authentication system with error messages for incorrect credentials using ",
+          "The frontend was architected using",
+          <span> React </span>,
+          "and includes a filter functionality to sort mentors according to students’ needs. It also includes an email authentication system with error messages for incorrect credentials using ",
           <span>Firebase</span>,
-          " and data storage for user comments by integrating ",
+          ". Data storage was integrated using ",
           <span>Cloud Firestore</span>,
           ".",
         ]}
@@ -169,7 +174,12 @@ function App() {
       <Project
         pic={Algorithma}
         p={[
-          "Designed the UI and developed a blog where a combination of HTML, CSS, and some JavaScript Libraries are used to host aesthetic visualizations of computational algorithms to make them more intriguing and intelligible for people. ",
+          "Worked in a team of 4 to design the UI and develop a blog using ",
+          <span>HTML </span>,
+          <span> CSS </span>,
+          " and ",
+          <span>JavaScript </span>,
+          "libraries. The blog hosts aesthetic visualizations of computational algorithms to make them more intriguing and intelligible for people.",
         ]}
         techstack="HTML  CSS  JavaScript"
         git="https://github.com/hamza-yusuff/AlgoVisualization"
@@ -186,7 +196,7 @@ function App() {
         ]}
         techstack="Figma"
         bool={true}
-        ext_link="https://devpost.com/software/project-global"
+        ext_link="https://www.figma.com/file/0NAgq8pRdypDrXPWXyDmHo/Project-Global?node-id=0%3A1"
       />
       <Project
         pic={CreatorsColosseum}
