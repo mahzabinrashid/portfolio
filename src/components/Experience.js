@@ -4,7 +4,7 @@ function Experience(prop) {
   return (
     <div className="experience">
       <h1>
-        {prop.title} <span>@ {prop.org}</span>
+        {prop.title} <a href={prop.url}>@ {prop.org}</a>
       </h1>
       <h2>{prop.duration}</h2>
 

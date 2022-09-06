@@ -7,7 +7,7 @@ function Navbar() {
   const toggleNavbar = () => {
     setActive(!isActive);
   };
-  
+
   return (
     <nav className="navbar">
       <div className="brand-title"></div>
@@ -19,19 +19,14 @@ function Navbar() {
       <div className={isActive ? "active navbar-links" : "navbar-links"}>
         <ul>
           <li>
-            <a href="#about">About</a>
+            <a href="#experience"><span>01.</span> Experience</a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <a href="#projects"><span>02.</span> Projects</a>
           </li>
+
           <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#skills">Skills</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact"><span>03.</span> Contact</a>
           </li>
         </ul>
       </div>

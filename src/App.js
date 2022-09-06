@@ -3,7 +3,6 @@ import Heading from "./components/Headings";
 import Intro from "./components/Intro";
 import Experience from "./components/Experience";
 import Project from "./components/Project";
-import Technology from "./components/Technology";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import CoffeeHours from "./images/CoffeeHours.png";
@@ -17,9 +16,100 @@ function App() {
       <Intro id="about" />
       <Heading id="experience" title="Where I've worked" />
       <Experience
+        title="Co-Founder"
+        duration="May 2022 - Present"
+        org="TutorLab"
+        url="https://tutorlab.io/"
+        bullets={[
+          [
+            "Conceived and developed an online marketplace that connects tutors and students",
+          ],
+          [
+            "Received a valuation of ",
+            <span> 200,000 </span>,
+            "after the pre-seed round",
+          ],
+          ["Created over", <span> 13 </span>, "pages single-handedly"],
+          [
+            "Architected the frontend using",
+            <span> React </span>,
+            " and implemented",
+            <span> Redux </span>,
+            " for state management",
+          ],
+          ["Designed the web app using", <span> Figma </span>],
+
+          [
+            "Configured a custom domain to host the app on ",
+            <span> App Engine </span>,
+            "in the ",
+            <span> Google Cloud Platform </span>,
+          ],
+        ]}
+      />
+      <Experience
+        title="Associate Web Engineer"
+        duration="May 2022 - August 2022"
+        org="Wattpad"
+        url="https://www.wattpad.com/"
+        bullets={[
+          [
+            "Updated the",
+            <span> React </span>,
+            "frontend of",
+            <span> 2000+ </span>,
+            "lines for the Watty Awards 2022 and received",
+            <span> 35,000+ </span>,
+            "submissions",
+          ],
+          [
+            "Wrote unit tests using",
+            <span> Jest </span>,
+            "and ",
+            <span> Enzyme </span>,
+            " with ",
+            <span> 80% </span>,
+            " coverage to enhance code reliability and maintainability",
+          ],
+          [
+            "Detected accessibility errors in the web app with ",
+            <span> axe DevTools </span>,
+            " and reduced accessibility issues by over ",
+            <span> 20% </span>,
+          ],
+          [
+            "Mocked components for the",
+            <span> Web UI library </span>,
+            "and investigated legacy code to make a plan of action for the comments revamp project",
+          ],
+        ]}
+      />
+
+      <Experience
+        title="Engineering Coordinator"
+        url="https://www.itstechnova.org/"
+        duration="May 2022 - August 2022"
+        org="TechNova"
+        bullets={[
+          ["Organized University of Waterloo’s first Women in Tech hackathon"],
+          [
+            "Worked with a team of 2 engineers to create and host a web application for ",
+            <span> 400+ </span>,
+            " attendees using ",
+            <span> React </span>,
+          ],
+          [
+            "Coordinated cross-functionally with designers to build the web app, receiving ",
+            <span> 950+ </span>,
+            "unique website visits",
+          ],
+        ]}
+      />
+      <Experience
         title="Frontend Engineer"
         duration="May 2021 - August 2021"
         org="Modumate"
+        url="https://www.modumate.com/"
         bullets={[
           [
             "Singlehandedly developed the frontend to facilitate real-time workspace collaboration among multiple users",
@@ -28,11 +118,11 @@ function App() {
             "Leveraged ",
             <span> Vue and Vuex</span>,
             " to build critical features which improved the user experience of ",
-            <span>3000</span>,
+            <span>3000+</span>,
             " enterprise users",
           ],
           [
-            "Diagnosed and refactored the codebase, which optimized performance and improved rouRng across the website",
+            "Diagnosed and refactored the codebase, which optimized performance and improved routing across the website",
           ],
           [
             "Wrote ",
@@ -51,31 +141,7 @@ function App() {
           ],
         ]}
       />
-      <Experience
-        title="Web Developer"
-        duration="December 2021"
-        org="Naboodeep"
-        bullets={[
-          [
-            "Developed a  ",
-            <span>WordPress</span>,
-            " website for a Bangladesh Government fertilizer supplying company with a user base of ",
-            <span>50+ million</span>,
-          ],
-        ]}
-      />
-      <Experience
-        title="Technology Department Head"
-        duration="Nov 2020 – Feb 2021"
-        org="Alate"
-        bullets={[
-          [
-            "Conceived and led a team of 4 to host webinars which improved the programming literacy of over ",
-            <span>80+</span>,
-            " students",
-          ],
-        ]}
-      />
+
       <Heading id="projects" title="Some things I've built" />
 
       <Project
@@ -98,7 +164,7 @@ function App() {
         ]}
         techstack="Firebase  React  SCSS"
         git="https://github.com/mahzabinrashid/Coffee-Hours"
-        ext_link="https://devpost.com/software/coffee-hours"
+        ext_link="https://coffee-hours-technova.web.app/"
       />
       <Project
         pic={Algorithma}
@@ -152,13 +218,7 @@ function App() {
         bool={true}
         ext_link="https://creatorscolosseum.com/"
       />
-      <Heading title="Technologies I work with" id="skills" />
-      <Technology
-        lang_1={["JavaScript", "HTML", "CSS"]}
-        lang_2={["Python", "C++", "C"]}
-        tools_1={["React.js", "Vue.js", "Firebase"]}
-        tools_2={["Git", "Figma", "Wordpress"]}
-      />
+
       <Contact id="contact" />
       <Footer />
     </div>

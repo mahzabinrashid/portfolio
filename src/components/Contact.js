@@ -1,5 +1,6 @@
 import "./Contact.scss";
 
+
 function Contact(prop) {
   return (
     <div className="contact" id={prop.id}>

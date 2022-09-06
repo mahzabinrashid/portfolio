@@ -1,6 +1,7 @@
 .contact {
   margin: auto;
-  padding: 10% 0;
+  // for mobile
+  padding: 10% 0px;
   width: 60%;
   text-align: center;
   font-family: "Inter", sans-serif;
@@ -14,9 +15,9 @@
   a {
     border-style: solid;
     border-width: 0.5px;
-    border-color: #bd97f6;
+    border-color: #f09335;
     border-radius: 5px;
-    color: #bd97f6;
+    color: #f09335;
     font-family: "Fira Code", monospace;
     margin-top: 55px;
     padding: 15px 32px;
@@ -25,5 +26,12 @@
     display: inline-block;
     font-size: 15px;
     cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 978px) {
+  // for desktop
+  .contact {
+    padding: 80px 0px;
   }
 }
