@@ -4,7 +4,10 @@ function Experience(prop) {
   return (
     <div className="experience">
       <h1>
-        {prop.title} <a href={prop.url}>@ {prop.org}</a>
+        {prop.title}{" "}
+        <span>@ <a href={prop.url} target="_blank" rel="noopener noreferrer">
+          {prop.org}
+        </a></span>
       </h1>
       <h2>{prop.duration}</h2>
 
