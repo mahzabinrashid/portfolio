@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="brand-title"></div>
+      <div className="brand-title"> </div>
       <div className="toggle-button" onClick={toggleNavbar}>
         <span className="bar"></span>
         <span className="bar"></span>
