@@ -5,9 +5,17 @@ function Experience(prop) {
     <div className="experience">
       <h1>
         {prop.title}{" "}
-        <span>@ <a href={prop.url} target="_blank" rel="noopener noreferrer">
-          {prop.org}
-        </a></span>
+        <span>
+          @{" "}
+          <a
+            className="hover-underline-animation"
+            href={prop.url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {prop.org}
+          </a>
+        </span>
       </h1>
       <h2>{prop.duration}</h2>
 

@@ -32,8 +32,10 @@
   span {
     color: #f09335;
   }
+  &:hover {
+    color: #f09335;
+  }
 }
-
 .navbar-links li:hover {
   background-color: #555;
 }

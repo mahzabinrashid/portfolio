@@ -14,7 +14,7 @@ function Footer() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <div className="circle">
+        <div className="circle" id="arrow">
           <FontAwesomeIcon icon={faGithub} className="fa-icon" />
         </div>
       </a>
@@ -23,7 +23,7 @@ function Footer() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <div className="circle">
+        <div className="circle" id="arrow">
           <FontAwesomeIcon icon={faLinkedin} />
         </div>
       </a>
@@ -32,7 +32,7 @@ function Footer() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <div className="circle">
+        <div className="circle" id="arrow">
           <FontAwesomeIcon icon={faInstagram} />
         </div>
       </a>

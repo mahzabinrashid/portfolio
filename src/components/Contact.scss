@@ -26,6 +26,9 @@
     display: inline-block;
     font-size: 15px;
     cursor: pointer;
+    &:hover {
+      background-color: #e8eaf0;
+    }
   }
 }
 
