@@ -15,38 +15,7 @@ function App() {
       <Navbar />
       <Intro id="about" />
       <Heading id="experience" title="Where I've worked" />
-      <Experience
-        title="Co-Founder"
-        duration="May 2022 - Present"
-        org="TutorLab"
-        url="https://tutorlab.io/"
-        bullets={[
-          [
-            "Conceived and developed an online marketplace that connects tutors and students",
-          ],
-          [
-            "Received a valuation of ",
-            <span> 200,000 </span>,
-            "after the pre-seed round",
-          ],
-          ["Created over", <span> 13 </span>, "pages single-handedly"],
-          [
-            "Architected the frontend using",
-            <span> React </span>,
-            " and implemented",
-            <span> Redux </span>,
-            " for state management",
-          ],
-          ["Designed the web app using", <span> Figma </span>],
-
-          [
-            "Configured a custom domain to host the app on ",
-            <span> App Engine </span>,
-            "in the ",
-            <span> Google Cloud Platform </span>,
-          ],
-        ]}
-      />
+ 
       <Experience
         title="Associate Web Engineer"
         duration="May 2022 - August 2022"
@@ -81,27 +50,6 @@ function App() {
             "Mocked components for the",
             <span> Web UI library </span>,
             "and investigated legacy code to make a plan of action for the comments revamp project",
-          ],
-        ]}
-      />
-
-      <Experience
-        title="Engineering Coordinator"
-        url="https://www.itstechnova.org/"
-        duration="May 2022 - August 2022"
-        org="TechNova"
-        bullets={[
-          ["Organized University of Waterloo’s first Women in Tech hackathon"],
-          [
-            "Worked with a team of 2 engineers to create and host a web application for ",
-            <span> 400+ </span>,
-            " attendees using ",
-            <span> React </span>,
-          ],
-          [
-            "Coordinated cross-functionally with designers to build the web app, receiving ",
-            <span> 950+ </span>,
-            "unique website visits",
           ],
         ]}
       />
@@ -141,9 +89,59 @@ function App() {
           ],
         ]}
       />
+      <Experience
+        title="Co-Founder"
+        duration="May 2022 - Present"
+        org="TutorLab"
+        url="https://tutorlab.io/"
+        bullets={[
+          [
+            "Conceived and developed an online marketplace that connects tutors and students",
+          ],
+          [
+            "Received a valuation of ",
+            <span> 200,000 </span>,
+            "after the pre-seed round",
+          ],
+          ["Created over", <span> 13 </span>, "pages single-handedly"],
+          [
+            "Architected the frontend using",
+            <span> React </span>,
+            " and implemented",
+            <span> Redux </span>,
+            " for state management",
+          ],
+          ["Designed the web app using", <span> Figma </span>],
 
+          [
+            "Configured a custom domain to host the app on ",
+            <span> App Engine </span>,
+            "in the ",
+            <span> Google Cloud Platform </span>,
+          ],
+        ]}
+      />
+      <Experience
+        title="Engineering Coordinator"
+        url="https://www.itstechnova.org/"
+        duration="May 2022 - August 2022"
+        org="TechNova"
+        bullets={[
+          ["Organized University of Waterloo’s first Women in Tech hackathon"],
+          [
+            "Worked with a team of 2 engineers to create and host a web application for ",
+            <span> 400+ </span>,
+            " attendees using ",
+            <span> React </span>,
+          ],
+          [
+            "Coordinated cross-functionally with designers to build the web app, receiving ",
+            <span> 950+ </span>,
+            "unique website visits",
+          ],
+        ]}
+      />
       <Heading id="projects" title="Some things I've built" />
-
       <Project
         pic={CoffeeHours}
         p={[
@@ -228,7 +226,6 @@ function App() {
         bool={true}
         ext_link="https://creatorscolosseum.com/"
       />
-
       <Contact id="contact" />
       <Footer />
     </div>
