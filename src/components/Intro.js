@@ -1,5 +1,5 @@
 import "./Intro.scss";
-
+import Resume from "../docs/Mahzabin-Rashid-Resume.pdf"
 function Intro(prop) {
   return (
     <div className="intro" id={prop.id}>
@@ -55,7 +55,7 @@ function Intro(prop) {
       </p>
       <a
         className="button"
-        href="https://docs.google.com/viewer?url=https://docs.google.com/document/d/1X7xY9Lt8UNeA0FwLaPUKfTD71uCar9B2/export?format=pdf&ouid=100862227451210315993&rtpof=true&sd=true"
+        href={Resume}
         target="_blank"
         rel="noopener noreferrer"
       >
