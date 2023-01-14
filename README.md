@@ -1,4 +1,4 @@
 # Portfolio Website built using React 
 
-https://mahzabin.netlify.app/
+https://mahzabin-rashid.com/
 
