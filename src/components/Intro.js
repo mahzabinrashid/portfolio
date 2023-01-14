@@ -1,5 +1,5 @@
 import "./Intro.scss";
-import Resume from "../docs/Mahzabin-Rashid-Resume.pdf"
+import Resume from "../docs/Mahzabin-Rashid-Resume.pdf";
 function Intro(prop) {
   return (
     <div className="intro" id={prop.id}>
@@ -22,9 +22,19 @@ function Intro(prop) {
         >
           Computer Science
         </a>
-        . Currently, I'm seeking Winter 2023 internship opportunities.<br></br>
+        . I'm seeking Summer 2023 internship opportunities!<br></br>
         <br></br>
-        Most recently, I worked at{" "}
+        Presently I am working at{" "}
+        <a
+          href="https://www.wealthsimple.com/en-ca"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Wealthsimple
+        </a>
+        , a Canadian online investment management service which provides
+        financial tools to help users grow and manage their money. I also worked
+        at{" "}
         <a
           href="https://www.wattpad.com/"
           target="_blank"

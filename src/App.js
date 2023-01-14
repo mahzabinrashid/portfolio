@@ -15,7 +15,22 @@ function App() {
       <Navbar />
       <Intro id="about" />
       <Heading id="experience" title="Where I've worked" />
- 
+
+      <Experience
+        title="Software Engineer"
+        duration="January 2023 - Present"
+        org="Wealthsimple"
+        url="https://www.wealthsimple.com/en-ca"
+        bullets={[
+          [
+            "Presently contributing to the Managed Experience product team, responsible for client-facing aspects of the managed investing product, using",
+            <span> Ruby on Rails </span>,
+            "and",
+            <span> React</span>,
+          ],
+        ]}
+      />
+
       <Experience
         title="Associate Web Engineer"
         duration="May 2022 - August 2022"
@@ -23,33 +38,41 @@ function App() {
         url="https://www.wattpad.com/"
         bullets={[
           [
-            "Updated the",
-            <span> React </span>,
-            "frontend of",
-            <span> 2000+ </span>,
-            "lines for the Watty Awards 2022 and received",
+            "Redesigned and optimized the React frontend component for the Watty Awards 2022, resulting in",
+            <span> 40% </span>,
+            "faster load times and seamless handling of over",
             <span> 35,000+ </span>,
             "submissions",
           ],
           [
+            "Successfully resolved and closed multiple",
+            <span> Jira </span>,
+            "tickets, resulting in the resolution of various software bugs and errors",
+          ],
+          [
+            "Created components for the",
+            <span> Web UI Library </span>,
+            "which",
+            <span> 50+ </span>,
+            "Wattpad engineers use for their front-end projects",
+          ],
+          [
+            "Spearheaded the user accessibility project, reducing accessibility issues by",
+            <span> 20% </span>,
+            "using",
+            <span> axe DevTools</span>,
+          ],
+          [
+            "Led the investigation and planning of modernizing the comment codebase to improve developer efficiency",
+          ],
+          [
             "Wrote unit tests using",
             <span> Jest </span>,
-            "and ",
+            "and",
             <span> Enzyme </span>,
-            " with ",
+            "achieving",
             <span> 80% </span>,
-            " coverage to enhance code reliability and maintainability",
-          ],
-          [
-            "Detected accessibility errors in the web app with ",
-            <span> axe DevTools </span>,
-            " and reduced accessibility issues by over ",
-            <span> 20% </span>,
-          ],
-          [
-            "Mocked components for the",
-            <span> Web UI library </span>,
-            "and investigated legacy code to make a plan of action for the comments revamp project",
+            "coverage of the entire codebase, enhancing code reliability",
           ],
         ]}
       />
@@ -60,32 +83,33 @@ function App() {
         url="https://www.modumate.com/"
         bullets={[
           [
-            "Singlehandedly developed the frontend to facilitate real-time workspace collaboration among multiple users",
+            "Pioneered the development of a cutting-edge collaboration project allowing real-time collaboration among architects, utilizing",
+            <span> Vue </span>,
+            "and",
+            <span> Vuex </span>,
+            "to build membership, invitation, project, and settings pages, resulting in improved productivity for",
+            <span> 3000+ </span>,
+            "enterprise users",
           ],
           [
-            "Leveraged ",
-            <span> Vue and Vuex</span>,
-            " to build critical features which improved the user experience of ",
-            <span>3000+</span>,
-            " enterprise users",
+            "Restructured the authentication flow and integrated Vue routing, resulting in a streamlined user experience",
           ],
           [
-            "Diagnosed and refactored the codebase, which optimized performance and improved routing across the website",
+            "Created custom",
+            <span> SQL </span>,
+            "queries to filter data, resulting in more efficient data processing for user engagement statistics",
           ],
           [
-            "Wrote ",
-            <span>SQL queries</span>,
-            " to improve data handling and streamline the process of collecting user engagement statistics",
+            "Implemented the",
+            <span> Klaviyo API </span>,
+            "for automated messaging, removing manual process for workspace invitations and password resets, resulting in increased user satisfaction",
           ],
           [
-            "Developed the authentication flow and data validation which significantly improved customer retention",
-          ],
-          [
-            "Integrated and used ",
-            <span>Google Analytics</span>,
-            " to measure drop off rates and leveraged  ",
-            <span>Klaviyo</span>,
-            " to improve user acquisition",
+            "Integrated",
+            <span> Google Analytics </span>,
+            "and",
+            <span> Facebook Ads Manager </span>,
+            "for improved tracking and analysis, resulting in more effective digital marketing campaigns",
           ],
         ]}
       />
@@ -96,48 +120,50 @@ function App() {
         url="https://tutorlab.io/"
         bullets={[
           [
-            "Conceived and developed an online marketplace that connects tutors and students",
-          ],
-          [
-            "Received a valuation of ",
-            <span> 200,000 </span>,
+            "Led the development and launch of a fully-functional marketplace platform, achieving a",
+            <span> $200,000 </span>,
             "after the pre-seed round",
           ],
-          ["Created over", <span> 13 </span>, "pages single-handedly"],
           [
             "Architected the frontend using",
             <span> React </span>,
-            " and implemented",
+            "implemented",
             <span> Redux </span>,
-            " for state management",
+            "for state management, and designed the web app using",
+            <span> Figma </span>,
+            "singlehandedly creating over",
+            <span> 13 </span>,
+            "pages resulting in an intuitive and user-friendly interface",
           ],
-          ["Designed the web app using", <span> Figma </span>],
-
           [
-            "Configured a custom domain to host the app on ",
+            "Configured a custom domain to host the app on",
             <span> App Engine </span>,
-            "in the ",
-            <span> Google Cloud Platform </span>,
+            "in",
+            <span> GCP </span>,
+            "resulting in a more easily accessible web presence ",
           ],
         ]}
       />
       <Experience
-        title="Engineering Coordinator"
+        title="Engineering Lead"
         url="https://www.itstechnova.org/"
-        duration="May 2022 - August 2022"
+        duration="May 2022 - Present"
         org="TechNova"
         bullets={[
-          ["Organized University of Waterloo’s first Women in Tech hackathon"],
           [
-            "Worked with a team of 2 engineers to create and host a web application for ",
-            <span> 400+ </span>,
-            " attendees using ",
+            "Assigned as Engineering Lead for the third iteration of TechNova, responsible for driving the development and deployment of advanced",
             <span> React </span>,
+            "animations and transitions",
           ],
           [
-            "Coordinated cross-functionally with designers to build the web app, receiving ",
+            "Organized the University of Waterloo’s first women-in-tech hackathon, attracting",
+            <span> 400+ </span>,
+            "hackers internationally, prompting diversity and inclusion in the tech industry",
+          ],
+          [
+            "Collaborated with designers to develop an app receiving",
             <span> 950+ </span>,
-            "unique website visits",
+            "website visits, leading to enhanced user engagement",
           ],
         ]}
       />
@@ -145,25 +171,26 @@ function App() {
       <Project
         pic={CoffeeHours}
         p={[
-          "Awarded ",
-          <span>Best Pitch</span>,
-          " in ",
-          <span>TechNova 2021</span>,
-          " among",
+          "Coffee Hours is a mobile-responsive web application that facilitates virtual coffee chats between students, faculty members, and alumni from universities across Canada. The application was awarded the",
+          <span> best pitch </span>,
+          "in",
+          <span> TechNova 2021 </span>,
+          "among",
           <span> 300+ </span>,
-          "participants",
-          " and prototyped in ",
-          <span>36 hours</span>,
-          ", Coffee Hours is a youth-friendly website used for facilitating virtual coffee chats with current students, faculty members, and alumni from universities across Canada.",
+          "participants and was prototyped in",
+          <span> 36 </span>,
+          "hours.",
           <br></br>,
           <br></br>,
-          "The frontend was architected using",
+          "The frontend of the application was built using",
           <span> React </span>,
-          "and includes a filter functionality to sort mentors according to students’ needs. It also includes an email authentication system with error messages for incorrect credentials using ",
-          <span>Firebase</span>,
-          ". Data storage was integrated using ",
-          <span>Cloud Firestore</span>,
-          ".",
+          "and includes a filter functionality to sort mentors according to students’ needs. The application also includes an email authentication system with error messages for incorrect credentials using",
+          <span> Firebase</span>,
+          ". Data storage was integrated using",
+          <span> Cloud Firestore</span>,
+          ". Additionally, I deployed the app on Firebase, ensuring secure",
+          <span> hosting </span>,
+          "for the project.",
         ]}
         techstack="Firebase  React  SCSS"
         git="https://github.com/mahzabinrashid/Coffee-Hours"
@@ -172,12 +199,12 @@ function App() {
       <Project
         pic={Algorithma}
         p={[
-          "Worked in a team of 4 to design the UI and develop a blog using ",
-          <span>HTML </span>,
+          "I was part of a team of four that designed and developed a blog using",
+          <span> HTML </span>,
           <span> CSS </span>,
-          " and ",
-          <span>JavaScript </span>,
-          "libraries. The blog hosts aesthetic visualizations of computational algorithms to make them more intriguing and intelligible for people.",
+          "and pure",
+          <span> JavaScript </span>,
+          "The blog features interactive visualizations of computational algorithms, with the goal of making them more interesting and understandable for a wider audience.",
         ]}
         techstack="HTML  CSS  JavaScript"
         git="https://github.com/hamza-yusuff/AlgoVisualization"
@@ -190,7 +217,9 @@ function App() {
           <span>Outstanding Social Impact</span>,
           " in ",
           <span>T9Hacks 2021</span>,
-          ". Designed the pages and prototyped the app using Figma to develop a high fidelity mockup of the application.",
+          ". Designed the pages and prototyped the app using",
+          <span> Figma </span>,
+          "to develop a high fidelity mockup of the application.",
         ]}
         techstack="Figma"
         bool={true}
@@ -200,27 +229,27 @@ function App() {
         pic={CreatorsColosseum}
         p={[
           "Winning first place in the ",
-          <span>Upper Division</span>,
-          " of ",
+          <span> Upper Division </span>,
+          "of",
           <span>Spring Ideathon</span>,
-          " by ",
-          <span>Tomorrow's Entrepreneurs</span>,
-          " for the business idea, Creators' Colosseum is a platform dedicated to let artists to showcase their work.",
+          "by",
+          <span> Tomorrow's Entrepreneurs </span>,
+          "for the business idea, Creators' Colosseum is a platform dedicated to let artists to showcase their work.",
           <br></br>,
           <br></br>,
-          "Using ",
-          <span>Wordpress</span>,
-          " to make the website and ",
-          <span>Adobe Photoshop</span>,
-          ", ",
-          <span>Figma</span>,
-          " and ",
-          <span>Canva</span>,
-          " to design the UI, we built an online community of over ",
-          <span>500</span>,
-          " artists and arranged a virtual competition, receiving over ",
-          <span>100</span>,
-          " submissions.",
+          "To build the platform, we used",
+          <span> Wordpress </span>,
+          "to create the website and",
+          <span> Adobe Photoshop </span>,
+          ",",
+          <span> Figma </span>,
+          "and",
+          <span> Canva </span>,
+          "to design the UI. Through our efforts, we were able to build an online community of over",
+          <span> 500 </span>,
+          "artists and arranged a virtual competition, receiving over",
+          <span> 100 </span>,
+          "submissions.",
         ]}
         techstack="WordPress Photoshop  Figma Canva"
         bool={true}

@@ -28,7 +28,7 @@ function Footer() {
         </div>
       </a>
       <a
-        href="https://www.instagram.com/mhzabin/"
+        href="https://www.instagram.com/fariha.js/"
         target="_blank"
         rel="noopener noreferrer"
       >
