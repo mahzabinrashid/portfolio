@@ -1,5 +1,5 @@
 import "./Intro.scss";
-import Resume from "../docs/Mahzabin-Rashid-Resume.pdf";
+import Resume from "../docs/Mahzabin-Rashid-Fariha-Resume.pdf";
 function Intro(prop) {
   return (
     <div className="intro" id={prop.id}>

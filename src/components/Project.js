@@ -5,7 +5,7 @@ function Project(prop) {
   return (
     <div className="project">
       <Grid container spacing={3}>
-        <Grid item xs={12} lg={6}>
+        <Grid item xs={12} md={6}>
           <div className="pic_container">
             <img
               className="project_img"
@@ -16,7 +16,7 @@ function Project(prop) {
             />
           </div>
         </Grid>
-        <Grid item xs={12} lg={6}>
+        <Grid item xs={12} md={6}>
           <div className="container">
             <h1>{prop.name}</h1>
 
