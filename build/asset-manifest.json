@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.dce2768e.css",
-    "main.js": "/static/js/main.b28458ce.js",
-    "static/media/CreatorsColosseum.png": "/static/media/CreatorsColosseum.f14dc3eaf3b1aeae56f9.png",
-    "static/media/ProjectGlobal.png": "/static/media/ProjectGlobal.fa4b4380e7bf13a4692e.png",
+    "main.css": "/static/css/main.bfc66524.css",
+    "main.js": "/static/js/main.e2e1fd17.js",
+    "static/media/CreatorsColosseum.png": "/static/media/CreatorsColosseum.0a35b0f52e113dcdab5d.png",
+    "static/media/ProjectGlobal.png": "/static/media/ProjectGlobal.c2ccb212129ef7509ba9.png",
     "static/media/CoffeeHours.png": "/static/media/CoffeeHours.adc75c7032b0a73d3f15.png",
-    "static/media/Algorithma.png": "/static/media/Algorithma.161647260395dfb24251.png",
-    "static/media/resume.pdf": "/static/media/resume.3981d2b01eebe1612c85.pdf",
+    "static/media/Algorithma.png": "/static/media/Algorithma.be2ab424a3703217e786.png",
+    "static/media/Mahzabin-Rashid-Fariha-Resume.pdf": "/static/media/Mahzabin-Rashid-Fariha-Resume.732e7598e37ab9b6c47c.pdf",
     "index.html": "/index.html",
-    "static/media/bullet.svg": "/static/media/bullet.aaf729ddf2f8a38b949b.svg",
-    "main.dce2768e.css.map": "/static/css/main.dce2768e.css.map",
-    "main.b28458ce.js.map": "/static/js/main.b28458ce.js.map"
+    "static/media/bullet.svg": "/static/media/bullet.7cc670323039f9faacb6.svg",
+    "main.bfc66524.css.map": "/static/css/main.bfc66524.css.map",
+    "main.e2e1fd17.js.map": "/static/js/main.e2e1fd17.js.map"
   },
   "entrypoints": [
-    "static/css/main.dce2768e.css",
-    "static/js/main.b28458ce.js"
+    "static/css/main.bfc66524.css",
+    "static/js/main.e2e1fd17.js"
   ]
 }

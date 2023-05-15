@@ -18,15 +18,38 @@ function App() {
 
       <Experience
         title="Software Engineer"
-        duration="January 2023 - Present"
+        duration="January 2023 - April 2023"
         org="Wealthsimple"
         url="https://www.wealthsimple.com/en-ca"
         bullets={[
           [
-            "Presently contributing to the Managed Experience product team, responsible for client-facing aspects of the managed investing product, using",
-            <span> Ruby on Rails </span>,
-            "and",
-            <span> React</span>,
+            "Boosted portfolio discoverability utilizing",
+            <span> React Native</span>,
+            ", spiking user traffic to over",
+            <span> 1 million </span>,
+            "for assets worth",
+            <span> $15B</span>,
+          ],
+          [
+            "Migrated",
+            <span> Rails services </span>,
+            "to conduct Invest app deprecation messaging which seamlessly transitioned",
+            <span> 230K+ </span>,
+            "users",
+          ],
+          [
+            "Implemented new",
+            <span> TypeScript </span>,
+            "types for data validation and added new actions and reducers on",
+            <span> Redux </span>,
+            "to efficiently import assets and text to",
+            <span> Contentful</span>,
+            ", resulting in agile content updates and increased stakeholder satisfaction",
+          ],
+          [
+            "Created reusable components and assets in the",
+            <span> Design System </span>,
+            "for cross-repository use, streamlining development",
           ],
         ]}
       />

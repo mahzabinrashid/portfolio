@@ -22,9 +22,9 @@ function Intro(prop) {
         >
           Computer Science
         </a>
-        . I'm seeking Summer 2023 internship opportunities!<br></br>
+        . I'm currently seeking Fall 2023 internship opportunities!<br></br>
         <br></br>
-        Presently I am working at{" "}
+        Previously, I worked as a software engineer intern at{" "}
         <a
           href="https://www.wealthsimple.com/en-ca"
           target="_blank"
@@ -33,7 +33,7 @@ function Intro(prop) {
           Wealthsimple
         </a>
         , a Canadian online investment management service which provides
-        financial tools to help users grow and manage their money. I also worked
+        financial tools to help users grow and manage their money. I also interned as a software engineer
         at{" "}
         <a
           href="https://www.wattpad.com/"
@@ -43,7 +43,7 @@ function Intro(prop) {
           Wattpad
         </a>
         , a platform which connects a global community of millions of readers
-        and writers through the power of story. Previously, I worked at{" "}
+        and writers through the power of story. My first co-op was at{" "}
         <a
           href="https://www.modumate.com/"
           target="_blank"
@@ -51,7 +51,7 @@ function Intro(prop) {
         >
           Modumate
         </a>
-        , a startup based in San Francisco, as the only self-managed{" "}
+        , a startup based in San Francisco, where I worked as the only self-managed{" "}
         <span>frontend engineer</span> of the team. I co-founded{" "}
         <a
           href="https://www.tutorlab.io/"
