@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.bfc66524.css",
-    "main.js": "/static/js/main.a6084825.js",
+    "main.js": "/static/js/main.a94b2e4b.js",
     "static/media/CreatorsColosseum.png": "/static/media/CreatorsColosseum.0a35b0f52e113dcdab5d.png",
     "static/media/ProjectGlobal.png": "/static/media/ProjectGlobal.c2ccb212129ef7509ba9.png",
     "static/media/CoffeeHours.png": "/static/media/CoffeeHours.adc75c7032b0a73d3f15.png",
     "static/media/Algorithma.png": "/static/media/Algorithma.be2ab424a3703217e786.png",
-    "static/media/Mahzabin-Rashid-Fariha-Resume.pdf": "/static/media/Mahzabin-Rashid-Fariha-Resume.732e7598e37ab9b6c47c.pdf",
+    "static/media/Mahzabin-Rashid-Fariha-Resume.pdf": "/static/media/Mahzabin-Rashid-Fariha-Resume.2c82c9f0312e0085e0ff.pdf",
     "index.html": "/index.html",
     "static/media/bullet.svg": "/static/media/bullet.7cc670323039f9faacb6.svg",
     "main.bfc66524.css.map": "/static/css/main.bfc66524.css.map",
-    "main.a6084825.js.map": "/static/js/main.a6084825.js.map"
+    "main.a94b2e4b.js.map": "/static/js/main.a94b2e4b.js.map"
   },
   "entrypoints": [
     "static/css/main.bfc66524.css",
-    "static/js/main.a6084825.js"
+    "static/js/main.a94b2e4b.js"
   ]
 }
