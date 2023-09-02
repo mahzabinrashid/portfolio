@@ -22,7 +22,7 @@ function Intro(prop) {
         >
           Computer Science
         </a>
-        . I'm currently seeking Fall 2023 internship opportunities!<br></br>
+        . I'm currently seeking SWE Summer+Fall 2024 internships internship opportunities!<br></br>
         <br></br>
         Previously, I worked as a software engineer intern at{" "}
         <a
