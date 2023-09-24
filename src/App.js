@@ -245,7 +245,7 @@ function App() {
           "to develop a high fidelity mockup of the application.",
         ]}
         techstack="Figma"
-        bool={true}
+        noGithub={true}
         ext_link="https://www.figma.com/file/0NAgq8pRdypDrXPWXyDmHo/Project-Global?node-id=0%3A1"
       />
       <Project
@@ -275,7 +275,8 @@ function App() {
           "submissions.",
         ]}
         techstack="WordPress Photoshop  Figma Canva"
-        bool={true}
+        noGithub={true}
+        noLink={true}
         ext_link="https://creatorscolosseum.com/"
       />
       <Contact id="contact" />

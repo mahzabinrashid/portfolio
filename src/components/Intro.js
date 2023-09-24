@@ -9,6 +9,7 @@ function Intro(prop) {
         I’m a third-year student at the{" "}
         <a
           href="https://uwaterloo.ca/"
+          className="hover-underline-animation"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -17,6 +18,7 @@ function Intro(prop) {
         pursuing a degree in{" "}
         <a
           href="https://cs.uwaterloo.ca/"
+          className="hover-underline-animation"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -28,6 +30,7 @@ function Intro(prop) {
         Previously, I interned as a mobile engineer at{" "}
         <a
           href="https://www.wealthsimple.com/en-ca"
+          className="hover-underline-animation"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -37,6 +40,7 @@ function Intro(prop) {
         to investment portfolios. I worked as a web engineer at{" "}
         <a
           href="https://www.wattpad.com/"
+          className="hover-underline-animation"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -45,6 +49,7 @@ function Intro(prop) {
         , a global storytelling platform, contributing to projects like the
         Watty Awards and the Design System. Additionally, at{" "}
         <a
+          className="hover-underline-animation"
           href="https://www.modumate.com/"
           target="_blank"
           rel="noopener noreferrer"
@@ -55,6 +60,7 @@ function Intro(prop) {
         engineer, leading the workspace collaboration project. Furthermore, I
         co-founded{" "}
         <a
+          className="hover-underline-animation"
           href="https://www.tutorlab.io/"
           target="_blank"
           rel="noopener noreferrer"
