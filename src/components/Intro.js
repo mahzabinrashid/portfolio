@@ -1,5 +1,5 @@
 import "./Intro.scss";
-import Resume from "../docs/Mahzabin-Rashid-Fariha-Resume.pdf";
+import Resume from "../docs/Mahzabin_RashidFariha_Resume.pdf";
 function Intro(prop) {
   return (
     <div className="intro" id={prop.id}>
@@ -22,9 +22,10 @@ function Intro(prop) {
         >
           Computer Science
         </a>
-        . I'm currently seeking SWE Summer+Fall 2024 internships internship opportunities!<br></br>
+        . I'm currently seeking SWE Summer+Fall 2024 internship opportunities!
         <br></br>
-        Previously, I worked as a software engineer intern at{" "}
+        <br></br>
+        Previously, I interned as a mobile engineer at{" "}
         <a
           href="https://www.wealthsimple.com/en-ca"
           target="_blank"
@@ -32,9 +33,8 @@ function Intro(prop) {
         >
           Wealthsimple
         </a>
-        , a Canadian online investment management service which provides
-        financial tools to help users grow and manage their money. I also interned as a software engineer
-        at{" "}
+        , a Toronto-based fintech company, where I focused on increasing traffic
+        to investment portfolios. I worked as a web engineer at{" "}
         <a
           href="https://www.wattpad.com/"
           target="_blank"
@@ -42,8 +42,8 @@ function Intro(prop) {
         >
           Wattpad
         </a>
-        , a platform which connects a global community of millions of readers
-        and writers through the power of story. My first co-op was at{" "}
+        , a global storytelling platform, contributing to projects like the
+        Watty Awards and the Design System. Additionally, at{" "}
         <a
           href="https://www.modumate.com/"
           target="_blank"
@@ -51,8 +51,9 @@ function Intro(prop) {
         >
           Modumate
         </a>
-        , a startup based in San Francisco, where I worked as the only self-managed{" "}
-        <span>frontend engineer</span> of the team. I co-founded{" "}
+        , a San Francisco-based startup, I served as the sole front-end
+        engineer, leading the workspace collaboration project. Furthermore, I
+        co-founded{" "}
         <a
           href="https://www.tutorlab.io/"
           target="_blank"
@@ -60,8 +61,8 @@ function Intro(prop) {
         >
           TutorLab
         </a>
-        , an online marketplace that connects tutors and students, with a
-        valuation of $200,000 after the pre-seed round.
+        , an online marketplace connecting tutors and students, which achieved a
+        valuation of $200,000 after a successful pre-seed round.
       </p>
       <a
         className="button"
