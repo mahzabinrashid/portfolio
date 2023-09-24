@@ -15,7 +15,6 @@ function Navbar() {
       const sectionTop =
         section.getBoundingClientRect().top + window.scrollY - navbarHeight;
       window.scrollTo({ top: sectionTop, behavior: "smooth" });
-      // Close the mobile navigation menu if it's open
       if (isActive) {
         setActive(false);
       }
@@ -33,16 +32,19 @@ function Navbar() {
       <div className={isActive ? "active navbar-links" : "navbar-links"}>
         <ul>
           <li>
+            {/* eslint-disable-next-line */}
             <a onClick={() => scrollToSection("experience")}>
               <span>01.</span> Experience
             </a>
           </li>
           <li>
+            {/* eslint-disable-next-line */}
             <a onClick={() => scrollToSection("projects")}>
               <span>02.</span> Projects
             </a>
           </li>
           <li>
+            {/* eslint-disable-next-line */}
             <a onClick={() => scrollToSection("contact")}>
               <span>03.</span> Contact
             </a>
